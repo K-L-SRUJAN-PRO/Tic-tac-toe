@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* background-color: transparent !important; */
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+
+}
+
+#h1{
+    font-size: 10vh;
+    text-align: center;
+    padding-bottom: 8vh;
+}
+#h2{
+    text-align: center;
+}
+
+.con{
+    border: 1px solid black;
+    height: 65vh;
+    width: 120vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* background-color: beige; */
+}
+
+.el{
+    height: 40vh;
+    width: 34vmin;
+    border: 1px solid slateblue;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.st{
+    background-image: url("stone.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pa{
+    background-image: url("paper.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.si{
+    background-image: url("scissors.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
