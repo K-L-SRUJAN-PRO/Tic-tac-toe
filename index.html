@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stone Paper Scissor</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 
 </head>
+
 <body>
-    <div id="i1" class="hide screen main">
+    <div id="i1" class=" screen main">
         <p id="h1">Stone Paper Scissor</p>
         <p id="h2">Make your choice</p>
         <div class="game">
@@ -19,13 +21,37 @@
             </div>
         </div>
     </div>
-    
+
     <!-------------- screen two------------------------ -->
     <div id="i2" class="hide screen hh "></div>
-    
-    <div id="i3" class="res screen ">
 
+
+    <!--------------- screen three ----------------------->
+
+    <div id="i3" class="hide res screen ">
+
+        <div class="op">
+            User
+            <div class="left"></div>
+
+        </div>
+        vs
+        <div class="op">
+            Computer
+            <div class="right"></div>
+        </div>
     </div>
+
+    <!---------------- screen four ----------->
+    <div id="i4" class="hide screen fres">
+        <p class="wint"></p>
+        <div class="win"></div>
+        <div>
+            <button class="reset">Restart</button>
+        </div>
+    </div>
+
     <script src="app.js">    </script>
 </body>
+
 </html>
