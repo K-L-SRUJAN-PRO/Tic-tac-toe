@@ -23,7 +23,7 @@ body{
 }
 
 .con{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 65vh;
     width: 120vmin;
     display: flex;
@@ -36,9 +36,11 @@ body{
 .el{
     height: 40vh;
     width: 34vmin;
-    border: 1px solid slateblue;
+    /* border: 1px solid slateblue; */
     border-radius: 10px;
     background-color: transparent;
+    transition: all 0.1s ease-in-out;
+    /* transform: ; */
 }
 
 .st{
@@ -58,4 +60,44 @@ body{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.screen{
+    transition: opacity 0.5 ease-in-out;
+    opacity: 1;
+}
+
+.hide{
+    display: none !important;
+    opacity: 0;
+}
+
+.hh{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 80vmin;
+    font-size:150px ;
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.1s ease-in-out;
+    margin: auto;
+}
+
+.op0{
+    opacity: 0 !important;
+    /* transform: scale(0.8); */
+}
+
+.res{
+    border: 1px solid black;
+    height: 65vh;
+    width: 120vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
 }
